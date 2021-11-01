@@ -1,159 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>WebsiteBanHang</title>
+    <link rel="stylesheet" href="bio.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <title>GÂU GÂU</title>
 </head>
+
 <body>
-    <div id="website">
-        <div id="top">
-            <div class="top_left">
-                <i class="fab fa-google" style="color: rgb(255, 0, 0);"></i>
-                <i class="top_left fas fa-envelope-open-text" style="color: rgb(10, 10, 238);"></i>
-                <i class="fab fa-facebook-square"style="color: #000"></i>
-            </div>
-            <div id="top_right">
-                <ul>
-                    <li><a href="#">Đăng nhập</a></li>
-                    <li>|</li>
-                    <li><a href="#">Đăng ký</a></li>
-                </ul>
-            </div>
-        </div>
-        <div id="header">
-            <!-- div thứ 1: hình logo -->
-             <div style="float:left; width:500px; height:100px; 
-             margin:15px 0 0 50px;"> 
-             <img src="logo.png" width="500" height="100"/>
-             </div>
-             <!-- div thứ 2: giỏ hàng và thông tin giỏ hàng -->
-            <div style="float:right; width:400px; height:67px; ">
-                <div class="shopcart">
-                    <img  class="shopcart" src="giohang3.jpg"/>
-                        <div class="info_cart">
-                            <p>0 sản phẩm</p>
-                            <p>0 đ</p>
-                        </div> 
-                </div>
-            </div>
-             <!-- div thứ 3: số điện thoại và tìm kiếm -->
-             <div style="float:right; width:400px; height:60px;">
-                <div class="header_phone">Support: 0703123456</div>
-                    <div id="header_search">
-                        <!-- Tạo form tìm kiếm-->
-                        <form id="search_form">
-                            <input type="text" id="txtsearch" placeholder="Search for here..."/>
-                                <button type="submit" id="btnsearch"></button>
-                        </form>
-                    </div>
-                </div>
-            </div>
+    <div class="bg">
 
-            <!-- Phần menu -->
-            <div id="menu">
-                <ul>
-                    <li><img  src="home.png" /></li>
-                   <li style="border-left:1px dotted #999"><a href="#">Trang chủ</a></li>
-                     <li><a href="#">Giới thiệu</a></li>
-                     <li><a href="#">Thời Trang Nam</a></li>
-                     <li><a href="#">Thời Trang Nữ</a></li>
-                     <li><a href="#">Hướng dẫn mua hàng</a></li>
-                     <li><a href="#">Liên hệ</a></li>
-                </ul>
-            </div>
-            <!-- PHẦN MAIN-->
-            <div id="main">
-                <div id="main_left"> 
-                    <div id="menu_left">
-                        <ul>
-                            <li><a href="#">Quần áo nữ</a>
-                                <ul class="submenu">
-                                    <li><a href="#">Áo thun nữ</a>
-                                    <li><a href="#">Áo sơ mi nữ</a>
-                                    <li><a href="#">Áo khoát, vest nữ</a>
-                                    <li><a href="#">Váy đầm</a>
-                                    <li><a href="#">Quần jean</a>
-                                </ul>
-                            </li>
-                            <li><a href="#">Giày dép nữ</a>
-                                <ul class="submenu">
-                                    <li><a href="#">Giày cao gót</a>
-                                    <li><a href="#">Giày búp bê</a>
-                                    <li><a href="#">Giày sandal nữ</a>
-                                    <li><a href="#">Giày bata nữ</a>
-                                    <li><a href="#">Giày thể thao nữ</a>
-                                </ul>
-                            </li>
-                        </ul>
-
-                    </div>
-                </div>
-                <div id="main_right"> 
-                    <div id="products">
-                        <ul>
-                            <li>
-                                <div class="content">
-                                   <a href="">
-                                    <img src="hinh1.png" alt="" width="210" height="280">
-                                    <p class="title"> Vua hề sặc lô baby shark</p>
-                                    <p class="price">370.000</p>
-                                   </a>
-
-                                </div>
-                            </li>
-                            <li>
-                                <div class="content">
-                               <a href="">
-                                <img src="hinh2.png" width="210" height="280" />
-                                <p class="title">Chong Chóng Che kia nobita</p>
-                                <p class="price">390.000đ</p>
-                               </a>
-                               </div>
-                            </li>
-                            <li>
-                                <div class="content">
-                               <img src="hinh3.png" width="210" height="280" />
-                                <a href="">
-                                    <p class="title">Cá sấu lên bờ GONZ</p>
-                                <p class="price">500.000đ</p>
-                                </a>
-                               </div>
-                            </li>
-                            <li>
-                                <div class="content">
-                               <a href="">
-                                <img src="hinh4.png" width="210" height="280" />
-                                <p class="title">ÁO BA LỖ </p>
-                                <p class="price">520.000đ</p>
-                               </a>
-                               </div>
-                            </li>
-                            <li>
-                                <div class="content">
-                               <a href="">
-                                <img src="hinh5.png" width="210" height="280" />
-                                <p class="title">ÁO có Chữ Gonz</p>
-                                <p class="price">420.000đ</p>
-                               </a>
-                               </div>
-                            </li>
-                            <li>
-                                <div class="content">
-                               <a href="">
-                                <img src="hinh6.png" width="210" height="280" />
-                                <p class="title">Ao thun Cao c</p>
-                                <p class="price">420.000đ</p>
-                               </a>
-                               </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
     </div>
+    <div class="profile">
+        <div class="avatar">
+            <img src="voinguyen.jpg"
+                alt="">
+        </div>
+        <div class="name">
+            <h1 >VOI CON </h1>
+        </div>
+        <div class="introduce"></div>
+        <a href="https://www.facebook.com/QuangMinha24/" target="blank">
+            <button>
+                <div class="facebook">
+                    <ion-icon name="logo-facebook" class="icon"></ion-icon>
+                    Facebook.com/QuangMinha24/
+                </div>
+            </button>
+        </a>
+        <br>
+        <a href="https://www.instagram.com/caubechantrauuu//" target="blank">
+            <button>
+                <div class="insta">
+                    <ion-icon name="logo-instagram" class="icon"></ion-icon>
+                    caubechantrauuu
+                </div>
+            </button>
+        </a>
+        <br>
+        <a href=" " target="blank">
+            <button>
+                <div class="mess">
+                    <i class="fab fa-facebook-messenger"></i>
+                    
+                    Nhắn tin cho tôi tại đây
+                </div>
+            </button>
+        </a>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="bio.js"></script>
 </body>
+
 </html>
